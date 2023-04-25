@@ -4,6 +4,11 @@
 
 replicaCount: 5
 
+# image:
+#   repository: nginx
+#   pullPolicy: IfNotPresent
+#   # Overrides the image tage whose default is the chart appVersion.
+#   tag: ""
 
 ingress:
   enabled: true
